@@ -1,0 +1,12 @@
+[
+    {"Name": "Apple", "Integer": 7, "Decimal": 3.4},
+    {"Name": "Banana", "Integer": 2, "Decimal": 0.7},
+    {"Name": "Orange", "Integer": 9, "Decimal": 2.1},
+    {"Name": "Apple", "Integer": 4, "Decimal": 1.9},
+    {"Name": "Banana", "Integer": 1, "Decimal": 0.3},
+    {"Name": "Orange", "Integer": 8, "Decimal": 3.9},
+    {"Name": "Apple", "Integer": 6, "Decimal": 1.1},
+    {"Name": "Banana", "Integer": 3, "Decimal": 2.8},
+    {"Name": "Orange", "Integer": 5, "Decimal": 0.6},
+    {"Name": "Apple", "Integer": 10, "Decimal": 4.0}
+]
