@@ -1,4 +1,8 @@
 
+node_modules/
+dist/
+.astro/
+
 documents/.DS_Store
 documents/FISR/.DS_Store
 .DS_Store
