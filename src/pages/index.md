@@ -16,7 +16,7 @@ If your team wants to make agentic AI work inside real, confounding systems—wh
 
 I don’t “manage” agents; I ferret out conditions for success: contracts, harnesses, receipts, and interfaces that let autonomy happen without pretending control is the point. If you’re moving serious work grounded in the infrastructure of the 21th century through the 21st, I can build and ship the bridge--especially if it is impossible.
 
-Reach me at adam@adampunk.com
+Reach out to adam@adampunk.com.
 
 ---
 
