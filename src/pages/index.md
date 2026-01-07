@@ -35,7 +35,7 @@ I help designers and artists understand the promise and limits of machine image 
 
 * [Generative AI Glitch Art: Looking for meaning in all the wrong places](https://youtu.be/r-V-qqLJLF8) — talk for VCU’s Workshop on the Workshop, March 14, 2023.
 * [Grappling with widespread machine image generation](/presentations/GATech-CS3001-generation.pdf) — slides for Georgia Tech CS3001, July 19, 2023.
-* **Hands Are Hard: Unlearning How We Talk About Machine Learning in the Arts** (listed below) starts from a simple wager: one good way to understand a generator is to study where it fails *reliably*, and then work outward from that fracture.
+* **Hands Are Hard: Unlearning How We Talk About Machine Learning in the Arts** (listed below) starts from a simple wager: one good way to understand a generator is to study where it fails *reliably*, and then work outward from that fracture. We find the fracture extends out from diffusion models into humanity.
 
 ---
 
