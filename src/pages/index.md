@@ -41,9 +41,7 @@ I help designers and artists understand the promise and limits of machine image 
 
 *Interpretability and robustness of large language models:*
 
-With [Ruoxi Shang](https://ruoxishang.com), I looked at what it means to treat LLMs (GPT-4, Llama, etc.) as trustworthy interfaces to computing. Interpretability is about what counts as an explanation; robustness is about how explanations and behavior degrade under manipulation. If you’re using these systems for high-stakes, high-complexity work, those questions stop being academic.
-
-* [Interpreting Robustness](https://docs.google.com/spreadsheets/d/15-f4mxW3niQ3myJAo3V0unLiFlbG9ru4HYthBh6eWbk/edit?usp=sharing) — a Spring 2023 course in UW HCDE connecting interpretability and robustness, especially where the literature treats them as separate. I don't like to crow about my own work but students in this class saw 2026 in advance.
+With [Ruoxi Shang](https://ruoxishang.com), I looked at what it means to treat LLMs (GPT-4, Llama, etc.) as trustworthy interfaces to computing. Interpretability is about what counts as an explanation; robustness is about how explanations and behavior degrade under manipulation. If you’re using these systems for high-stakes, high-complexity work, those questions stop being academic. One of our projects was [Interpreting Robustness](https://docs.google.com/spreadsheets/d/15-f4mxW3niQ3myJAo3V0unLiFlbG9ru4HYthBh6eWbk/edit?usp=sharing) — a Spring 2023 course in UW HCDE connecting interpretability and robustness, especially where the literature treats them as separate. I don't like to crow about my own work but students in this class saw 2026 in advance.
 
 ---
 
