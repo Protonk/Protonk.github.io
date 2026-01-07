@@ -14,7 +14,7 @@ If you’re here because you’ve encountered a tiny technical object with an ou
 
 If your team wants to make agentic AI work inside real, confounding systems—where correctness isn’t a single oracle and progress depends on clean interfaces between people, tools, and the ground truth—you can hire me.
 
-I don’t “manage” agents; I ferret out conditions for success: contracts, harnesses, receipts, and interfaces that let autonomy happen without pretending control is the point. If you’re moving serious work grounded in the infrastructure of the 21th century through the 21st, I can build and ship the bridge--especially if it is impossible.
+I don’t “manage” agents; I ferret out conditions for success: contracts, harnesses, receipts, and interfaces that let autonomy happen without pretending control is the point. If you’re moving serious work grounded in the infrastructure of the 20th century through the 21st, I can build and ship the bridge--especially if it is impossible.
 
 Reach out to adam@adampunk.com.
 
