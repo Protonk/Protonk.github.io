@@ -1,7 +1,8 @@
 ---
 layout: ../layouts/SiteLayout.astro
-title: Report your orientation within the hurricane
-description: Conducting a depth-first search of the universe, one topic at a time.
+title: Fix your bearing in the hurricane
+description: I build tools and explanations that make invisible constraints legible—standards, agents, and enforcement, with receipts.
+
 ---
 
 I’m Adam Hyland. I work on the parts of systems that decide what’s possible while pretending not to exist: numerical standards, learned model behavior, and operating-system enforcement. I try to make those invisible constraints *legible*—not by telling a cleaner story, but by grappling with the mess.
