@@ -16,6 +16,8 @@ If your team wants to make agentic AI work inside real, confounding systems—wh
 
 I don’t “manage” agents; I engineer the conditions for success: contracts, harnesses, receipts, and interfaces that let autonomy happen without pretending control is the point. If you’re moving serious work from 20th-century process and folklore into 21st-century, testable leverage—especially in security, infrastructure, or other invisible rule-systems—I can build and ship the bridge.
 
+Reach me at adam@adampunk.com
+
 ---
 
 *Computer arithmetic:*
