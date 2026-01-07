@@ -1,4 +1,119 @@
-User-agent: *
+# robots.txt
+# 
+# This file signals which bots are welcome and which are not, based on their behavior.
+# It is a voluntary guideline (bots that ignore it won't be stopped by technical means).
+# We expect ethical web robots to honor these rules. The below is a bit like saging
+# the place: equal parts performance, action, and magic. Nevertheless, it is valuable
+# to express social displeasure.
+#
+# === Irresponsible or Unwanted Crawlers ===
+
+# Perplexity AI's bot – ignores robots.txt and scrapes content without permission.
+# Ref: https://docs.perplexity.ai/docs/perplexitybot (Forbes & others have reported violations)
+User-agent: PerplexityBot
+Disallow: /
+
+# Anthropic's legacy crawler – known to bypass robots.txt (deprecated by Anthropic).
+# Ref: (Anthropic AI crawler deprecated for ClaudeBot; did not respect exclusions)
+User-agent: anthropic-ai
+Disallow: /
+
+# Cohere's web agent – undocumented, likely used for AI training. No evidence it honors robots.txt.
+# (Blocking as a precaution until Cohere provides guidance)
+User-agent: cohere-ai
+Disallow: /
+
+# ByteDance Spider – crawls for TikTok/ByteDance AI (e.g., Doubao model). 
+# Treating as unwanted AI data scraper.
+User-agent: Bytespider
+Disallow: /
+
+# Webz.io / Omgili bot – aggressive data scraper often repackaging content for resale.
+User-agent: Omgili
+Disallow: /
+User-agent: OmigiliBot
+Disallow: /
+
+# Diffbot – AI extraction service (turns websites into structured data).
+# Respectful but we prefer to opt out of being parsed for their commercial API.
+User-agent: Diffbot
+Disallow: /
+
+# Meta (Facebook) AI crawler – used for language model training on public data.
+# We allow Facebook’s preview bots (see below) but not this training-focused crawler.
+User-agent: FacebookBot
+Disallow: /
+
+# (No need to block "ChatGPT-User" or "Claude-User" agents here. 
+# Those are user-driven and not bulk crawlers; plus, they are handled by OpenAI/Anthropic policies.)
+
+# === Allowed Bots: Reputable Crawlers and Previews ===
+
+# OpenAI GPTBot – OpenAI's main crawler for training data.
+# We allow it, as it follows robots.txt (opt-out if Disallowed) and our content is open.
+# Ref: https://openai.com/gptbot
+User-agent: GPTBot
 Allow: /
 
-Sitemap: https://adampunk.com/sitemap.xml
+# Google Extended – Google’s crawler flag for AI content use (Bard/Gemini).
+# Allowed to ensure our site can be used in Google's AI features.
+# Ref: https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers#google-extended
+User-agent: Google-Extended
+Allow: /
+
+# Anthropic ClaudeBot – Anthropic’s new crawler for AI training (respects robots.txt).
+# Allowed to use our content.
+User-agent: ClaudeBot
+Allow: /
+
+# Anthropic Claude-SearchBot – used to index content for Claude’s search ability.
+User-agent: Claude-SearchBot
+Allow: /
+
+# Anthropic Claude-User – user-initiated fetches by Claude (treated like a browser).
+User-agent: Claude-User
+Allow: /
+
+# Common Crawl bot (CCBot) – open-data crawler for the Common Crawl archive.
+# We permit this for the sake of Internet archiving and research.
+# Ref: https://commoncrawl.org/ccbot
+User-agent: CCBot
+Allow: /
+
+# Twitter’s crawler – fetches page info (cards) for tweets with our links.
+# Allowed so that tweets linking our site show previews.
+User-agent: Twitterbot
+Allow: /
+
+# Facebook’s link preview crawlers – fetch Open Graph data when our links are shared on Facebook/Instagram.
+# (Facebot is Facebook’s general crawler, facebookexternalhit is the specific agent for previews.)
+# Ref: https://developers.facebook.com/docs/sharing/webmasters#crawl
+User-agent: Facebot
+Allow: /
+User-agent: facebookexternalhit
+Allow: /
+
+# Slack’s preview bot – expands URLs shared in Slack to show a preview.
+User-agent: Slackbot
+Allow: /
+
+# Discord’s preview bot – similar role for Discord chats.
+User-agent: Discordbot
+Allow: /
+
+# LinkedIn’s share bot – generates link previews on LinkedIn posts/messages.
+User-agent: LinkedInBot
+Allow: /
+
+# Pinterest’s crawler – saves content when users pin or link to our site.
+User-agent: Pinterestbot
+Allow: /
+
+# (Other well-behaved bots not listed by name are allowed by the wildcard rule below.)
+
+# === Default rule for any bots not explicitly mentioned ===
+
+User-agent: *
+# We allow all by default, assuming any bot not listed above plays by the rules.
+# Standard search engine bots (Google, Bing, etc.) and legitimate services are welcome.
+Allow: /
