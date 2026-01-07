@@ -10,6 +10,14 @@ If you’re here because you’ve encountered a tiny technical object with an ou
 
 ---
 
+*I can help bridge the future:*
+
+If your team wants to make agentic AI work inside real, confounding systems—where correctness isn’t a single oracle and progress depends on clean interfaces between people, tools, and the ground truth—you can hire me.
+
+I don’t “manage” agents; I engineer the conditions for success: contracts, harnesses, receipts, and interfaces that let autonomy happen without pretending control is the point. If you’re moving serious work from 20th-century process and folklore into 21st-century, testable leverage—especially in security, infrastructure, or other invisible rule-systems—I can build and ship the bridge.
+
+---
+
 *Computer arithmetic:*
 
 I’m interested in how arithmetic becomes infrastructure: negotiated, standardized, embedded into libraries and interfaces, and then treated as “just how computers work.” I like teaching the point where the math ends and the coordination begins.
