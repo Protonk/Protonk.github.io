@@ -13,7 +13,7 @@ I'm Adam Hyland, I care a lot about making the invisible parts of systems all ar
 My interest in computer arithmetic is in demonstrating and teaching the dramatic impact and importance of this invisible, negotiated, coordinated part of our world. Arithmetic on computers has moved from a central part of programmer training to being supplied by a vast array of libraries and standardized interfaces. Showing how this embedding works and has changed us as users, programmers, and designers is my goal.
 
 - The "Fast" Inverse (Reciprocal) Square Root: In 2009 I wrote a Wikipedia article about a famously terse bit of code to help people understand it. Now I maintain [0x5f37642f.com](https://0x5f37642f.com), which helps people understand how the spread and use of a strange access to the logarithm in floating point arithmetic.
-- I am the co-secretary for the upcoming IEEE 754-2029 working group, which determines standards for binary and decimal floating point arithmetic, excluding those covered under P3109, the machine learning floating point standards group.
+- I am the co-secretary for the IEEE 754-2029 working group, which determines standards for binary and decimal floating point arithmetic, excluding those covered under P3109, the machine learning floating point standards group.
 
 *AI Image Generation:*
 
