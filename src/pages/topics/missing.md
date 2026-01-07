@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/SiteLayout.astro
 title: Missing from the web
 description: Strange things not FUTON
 ---

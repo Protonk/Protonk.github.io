@@ -1,0 +1,38 @@
+---
+export interface Props {
+	title: string;
+	description?: string;
+}
+
+const { title, description } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en-US">
+	<head>
+		<title>{title}</title>
+		<link rel="icon" href="/favicon.ico" sizes="any" />
+		<link rel="icon" href="/icon.svg" type="image/svg+xml" />
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+		<link rel="manifest" href="/site.webmanifest" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="theme-color" content="#333333" />
+		<meta charset="utf-8" />
+		{description ? <meta name="description" content={description} /> : null}
+	</head>
+	<body>
+		<main>
+			<slot />
+		</main>
+	</body>
+</html>
+
+<style>
+	body {
+		font-size: calc(12px + 0.68vw);
+	}
+
+	li {
+		font-size: calc(12px + 0.53vw);
+	}
+</style>
