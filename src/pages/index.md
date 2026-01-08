@@ -17,7 +17,7 @@ If your team wants to make agentic AI work inside real, confounding systems—wh
 
 I don’t “manage” agents; I ferret out conditions for success: contracts, harnesses, receipts, and interfaces that let autonomy happen without pretending control is the point. If you’re moving serious work grounded in the infrastructure of the 20th century through the 21st, I can build and ship the bridge--especially if it is impossible.
 
-Reach out to adam@adampunk.com.
+Below are some things I am, did, or do. Reach out to adam@adampunk.com if you want to know more.
 
 ---
 
@@ -32,8 +32,6 @@ I’m interested in how arithmetic becomes infrastructure: negotiated, standardi
 
 With [Ruoxi Shang](https://ruoxishang.com), I looked at what it means to treat LLMs (GPT-4, Llama, etc.) as trustworthy interfaces to computing. Interpretability is about what counts as an explanation; robustness is about how explanations and behavior degrade under manipulation. One of our products was [Interpreting Robustness](https://docs.google.com/spreadsheets/d/15-f4mxW3niQ3myJAo3V0unLiFlbG9ru4HYthBh6eWbk/edit?usp=sharing) — a Spring 2023 course at the University of Washington connecting interpretability and robustness across a literature that treated separately. I don't like to crow about my own work but students in this class saw 2026 in advance.
 
----
-
 *Software:*
 
 I build and maintain the following with/via/because/despite agentic coding. A recurring theme: explanations should come with runnable receipts.
@@ -42,8 +40,6 @@ I build and maintain the following with/via/because/despite agentic coding. A re
 * **[PolicyWitness](https://github.com/Protonk/PolicyWitness)** serves as a macOS app-bundle laboratory for App Sandbox and entitlements for *SANDBOX_LORE*. The CLI drives a set of sandboxed XPC services so we can gingerly step over the plane of the sandbox and reliably instrument what happens when we poke. Harder than it looks.
 * **[fencerunner](https://github.com/Protonk/fencerunner)** is a Rust CLI that turns a folder of shell scripts into a strict, schema-validated NDJSON interface. Allows enrollment in simple monitoring, behavior, and output conditions for scripts so they can be treated as a true ensemble and not a bag of spaghetti. Does so in a way that is easy for agents to latch on to. Not *yet* distributed with *SANDBOX_LORE*, but presently.
 * **[frsrr](https://github.com/Protonk/frsrr)**, an R package which parallelizes and rigorously instruments the 4 lines of C comprising the Fast (Inverse|Reciprocal) Square Root, which like the sandbox attracts explanation but no complete through line. This is not a through line, it is a rigorous, reliable look at one part of the elephant. I hope it helps you safely doubt other deeply strange things about the FISR/FRSR. 
-
----
 
 *AI image generation:*
 
