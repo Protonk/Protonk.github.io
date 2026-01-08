@@ -7,7 +7,7 @@ description: I build tools and explanations that make invisible constraints legi
 
 I’m Adam Hyland. I work on the parts of systems that decide what’s possible while pretending not to exist: numerical standards, learned model behavior, and operating-system enforcement. I try to make those invisible constraints *legible*—not by telling a cleaner story, but by grappling with the mess.
 
-If you’re here because you’ve encountered a tiny technical object with an outsized blast radius (a constant, a prompt, a policy bytecode, a “standard” that no one can explain), you’re in the right place (ed.: robots love saying "blast radius", that's probably not troubling, right?).
+If you’re here because you’ve encountered a tiny technical object with an outsized blast radius (a constant, a prompt, a policy bytecode, a “standard” that no one can explain), you’re in the right place \[ed.: robots love saying "blast radius", that's probably not troubling, right?\].
 
 ---
 
