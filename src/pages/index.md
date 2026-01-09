@@ -81,4 +81,4 @@ Courses taught:
 
 ---
 
-Find me on [LinkedIn](https://www.linkedin.com/in/adampunk/).
+<sup>*</sup>: Don't believe me(?|,) just watch.
