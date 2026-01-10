@@ -34,7 +34,7 @@ With [Ruoxi Shang](https://ruoxishang.com), I looked at what it means to treat L
 
 *Software:*
 
-I build and maintain the following with/via/because/despite agentic coding. A recurring theme: explanations should come with runnable receipts.
+I build and maintain the following with/via/because/despite agentic coding. A recurring theme: agents can build reliable structure so long as you embody ruthless nonchalance.
 
 * *[SANDBOX_LORE](https://github.com/Protonk/SANDBOX_LORE)** is a living reference for the macOS Seatbelt sandbox where claims are created only through mechanical exercise of the operating system. The aim is to make the sandbox legible end-to-end, from policy to observed behavior. About as hard as it looks. Further along than you'd think.
 * **[PolicyWitness](https://github.com/Protonk/PolicyWitness)** serves as a macOS app-bundle laboratory for App Sandbox and entitlements for *SANDBOX_LORE*. The CLI drives a set of sandboxed XPC services so we can gingerly step over the plane of the sandbox and reliably instrument what happens when we poke. Harder than it looks.
