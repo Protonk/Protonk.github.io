@@ -36,9 +36,12 @@ With [Ruoxi Shang](https://ruoxishang.com), I looked at what it means to treat L
 
 I build and maintain the following with/via/because/despite agentic coding. A recurring theme: agents can build reliable structure so long as you embody ruthless nonchalance.
 
-* *[SANDBOX_LORE](https://github.com/Protonk/SANDBOX_LORE)** is a living reference for the macOS Seatbelt sandbox where claims are created only through mechanical exercise of the operating system. The aim is to make the sandbox legible end-to-end, from policy to observed behavior. About as hard as it looks. Further along than you'd think.
-* **[PolicyWitness](https://github.com/Protonk/PolicyWitness)** serves as a macOS app-bundle laboratory for App Sandbox and entitlements for *SANDBOX_LORE*. The CLI drives a set of sandboxed XPC services so we can gingerly step over the plane of the sandbox and reliably instrument what happens when we poke. Harder than it looks.
-* **[fencerunner](https://github.com/Protonk/fencerunner)** is a Rust CLI that turns a folder of shell scripts into a strict, schema-validated NDJSON interface. Allows enrollment in simple monitoring, behavior, and output conditions for scripts so they can be treated as a true ensemble and not a bag of spaghetti. Does so in a way that is easy for agents to latch on to. Not *yet* distributed with *SANDBOX_LORE*, but presently.
+macOS/iOS security:
+* *[PAWL](https://github.com/Protonk/PAWL)** is a working exploded view diagram of the macOS Seatbelt sandbox created through mechanical exercise of the operating system. The aim is to make the sandbox legible end-to-end, from policy to observed behavior. About as hard as it looks. Further along than you'd think.
+  * **[PolicyWitness](https://github.com/Protonk/PolicyWitness)** loads a profile record (SBPL + entitlements) and a probe and reports runtime sandbox decisions on macOS reliably. Harder than it looks.
+
+Other work:
+* **[fencerunner](https://github.com/Protonk/fencerunner)** is a Rust CLI that turns a folder of shell scripts into a strict, schema-validated NDJSON interface. Allows enrollment in simple monitoring, behavior, and output conditions for scripts so they can be treated as a true ensemble and not a bag of spaghetti. Does so in a way that is easy for agents to latch on to. 
 * **[frsrr](https://github.com/Protonk/frsrr)**, an R package which parallelizes and rigorously instruments the 4 lines of C comprising the Fast (Inverse|Reciprocal) Square Root, which like the sandbox attracts explanation but no complete through line. This is not a through line, it is a rigorous, reliable look at one part of the elephant. I hope it helps you safely doubt other deeply strange things about the FISR/FRSR. 
 
 *AI image generation:*
