@@ -33,9 +33,10 @@ I build and maintain the following with/via/because/despite agentic coding. A re
 macOS/iOS security:
 * *[PAWL](https://github.com/Protonk/PAWL)** is a working exploded view diagram of the macOS Seatbelt sandbox created through mechanical exercise of the operating system. The aim is to make the sandbox legible end-to-end, from policy to observed behavior. About as hard as it looks.
 * **[PolicyWitness](https://github.com/Protonk/PolicyWitness)** loads a profile record (SBPL + entitlements) and a probe and reports runtime sandbox decisions on macOS reliably. Harder than it looks.
+* **[fencerunner](https://github.com/Protonk/fencerunner)** is a Rust CLI that turns a folder of shell scripts into a strict, schema-validated NDJSON interface. Used in *PAWL* for probe generation and orchestration.
 
 Other work:
-* **[fencerunner](https://github.com/Protonk/fencerunner)** is a Rust CLI that turns a folder of shell scripts into a strict, schema-validated NDJSON interface. Allows enrollment in simple monitoring, behavior, and output conditions for scripts so they can be treated as a true ensemble and not a bag of spaghetti. Does so in a way that is easy for agents to latch on to. 
+
 * **[frsrr](https://github.com/Protonk/frsrr)**, an R package which parallelizes and rigorously instruments the 4 lines of C comprising the Fast (Inverse|Reciprocal) Square Root, which like the sandbox attracts explanation but no complete through line. This is not a through line, it is a rigorous, reliable look at one part of the elephant. I hope it helps you safely doubt other deeply strange things about the FISR/FRSR. 
 
 *AI image generation:*
